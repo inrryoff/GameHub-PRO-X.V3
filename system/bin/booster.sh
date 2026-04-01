@@ -231,18 +231,19 @@ menu() {
         echo -e "${GREEN}[2] 🧹 Apenas Limpar RAM (Bruto)${NC}"
         echo -e "${YELLOW}[3] ➕ Adicionar Novo Jogo${NC}"
         echo -e "${YELLOW}[4] 🛡 Proteger App (Whitelist)${NC}"
-        echo -e "${GREEN}[6] 🧠 Restaurar Sistema (Modo Normal)${NC}"
-        echo -e "${RED}[5] ❌ Sair${NC}"
+        echo -e "${BLUE}[5] 🧠 Restaurar Sistema (Modo Normal)${NC}"
+        echo -e "${RED}[6] ❌ Sair${NC}"
         echo ""
         echo -n "Escolha uma opção: "
         read op
+        
         case $op in
             1) jogar ;;
             2) exterminar_apps; pause ;;
             3) adicionar_jogo ;;
             4) adicionar_whitelist ;;
-            5) modo_normal ;;
-            6) exit 0 ;;
+            5) modo_normal ;; 
+            6) exit 0 ;; 
             *) echo "Opção inválida!"; sleep 1 ;;
         esac
     done
