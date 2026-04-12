@@ -1,0 +1,14 @@
+Termux - Android terminal emulator and Linux environment
+
+License: GNU General Public License v3.0
+Copyright (c) 2020-2024 Termux community
+
+This module includes the Termux APK for offline installation.
+No modifications were made to the original APK.
+
+Source code: https://github.com/termux/termux-app
+
+---
+
+GameHub PRO-X is distributed under MIT License.
+Termux is distributed under GPL v3.0.
