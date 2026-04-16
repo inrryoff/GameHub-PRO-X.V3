@@ -14,7 +14,9 @@ Este módulo **NÃO** é genérico. Ele foi projetado sob medida:
 *   **📱 Dispositivo Alvo:** Exclusivo para **Moto G24**.
 *   **⚡ Compatibilidade:** Testado apenas no **Moto G24** porém presuma-se que seja compatível com o **Moto G24** e dispositivos com SoC **mt6768 & mt6769** (Hélio G80/G85).
 *   **🛠️ Ambiente:** Desenvolvido e testado na **GSI: CrDroid**.
+
 > [!CAUTION]
+>  **Atenção aos riscos de uso excessivo**
 > - **Superaquecimento**: Use com cooler externo (obrigatório para sessões longas)
 > - **Bateria**: O consumo será maior devido à prioridade máxima da CPU
 > - **Estabilidade**: Pode causar lentidão no sistema fora do jogo
@@ -54,9 +56,19 @@ O GameHub-PRO-X aciona o motor `ram.sh` do ZramTG24 para garantir que a Zram est
 
 ---
 
-### Instalação recomendada
+### ✔️ Instalação recomendada
 
 Recomendo baixar o módulo [Kreapic Desativar Térmico Universal](https://github.com/mahisataruna/Kreapic-Disable-Thermal) 
+
+---
+
+## 🚀 Instalação
+1. Baixe o arquivo ".zip" do módulo.
+2. Abra o app do [Magisk](https://github.com/topjohnwu/magisk/releases).
+3. Vá na aba de módulos.
+4. Selecione instalar do armazenamento.
+5. selecione o arquivo do GameHub-PRO-X.
+6. Reinicie o dispositivo.
 
 ---
 
@@ -78,5 +90,4 @@ O módulo já configura o binário no sistema via `customize.sh`.
 ## 🙏 Agradecimentos
 
 - **[Termux](https://github.com/termux)** - Terminal emulador para Android (GPL v3.0)
-- **[Mahisataruna](https://github.com/mahisataruna/)** - Pelo módulo universal que inspirou partes deste projeto
-- **[Magisk](https://github.com/topjohnwu/magisk/releases)** - A base de tudo
+- **[Magisk](https://github.com/topjohnwu/magisk)** - A base de tudo
