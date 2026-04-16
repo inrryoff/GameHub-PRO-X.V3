@@ -1,4 +1,4 @@
-# 🎮 GameHub-PRO-X G24
+# 🎮 GameHub-PRO-X
 
 [![Magisk](https://img.shields.io/badge/Magisk-27.0+-green.svg)](https://github.com/topjohnwu/Magisk)
 [![Android](https://img.shields.io/badge/Android-12+-blue.svg)](https://www.android.com)
