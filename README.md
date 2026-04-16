@@ -47,12 +47,14 @@ Abra uma issue no GitHub com:
 
 ---
 
-## 🛡️ REQUISITO OBRIGATÓRIO
+## 🛡️ REQUISITOS OBRIGATÓRIOS
 
-Este módulo funciona em simbiose com o *ZramTG24.* É **obrigatória** a instalação do:
-👉 **[ZramTG24](https://github.com/inrryoff/ZramTG24)**
+1. Este módulo funciona em simbiose com o *ZramTG24* e o *BuSy.* É **obrigatória** a instalação dos módulos abaixo:
+- 👉 **[ZramTG24](https://github.com/inrryoff/ZramTG24)**
+- 👉 **[BuSy](https://github.com/inrryoff/BuSy)**
 
-O GameHub-PRO-X aciona o motor `ram.sh` do ZramTG24 para garantir que a Zram esteja limpa e comprimida antes de injetar os perfis de performance no kernel.
+- O GameHub-PRO-X aciona o motor `ram.sh` do ZramTG24 para garantir que a Zram esteja limpa e comprimida antes de injetar os perfis de performance no kernel.
+- O GameHub-PRO-X utiliza comandos mais avançados que exigem a instalação do BuSy, o nível de instalação recomendado para o GameHub-PRO-X é a `Small` mas funciona perfeitamente com os níveis `Full` e `Medium`.
 
 ---
 
