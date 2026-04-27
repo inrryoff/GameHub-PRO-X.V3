@@ -15,14 +15,29 @@ Este módulo **NÃO** é genérico. Ele foi projetado sob medida:
 *   **⚡ Compatibilidade:** Testado apenas no **Moto G24** porém presuma-se que seja compatível com o **Moto G24** e dispositivos com SoC **mt6768 & mt6769** (Hélio G80/G85).
 *   **🛠️ Ambiente:** Desenvolvido e testado na **GSI: CrDroid**.
 
+---
+
+## 💢 ATENÇÃO
+
 > [!CAUTION]
 >  **Atenção aos riscos de uso excessivo**
 > - **Superaquecimento**: Use com cooler externo (obrigatório para sessões longas)
 > - **Bateria**: O consumo será maior devido à prioridade máxima da CPU
 > - **Estabilidade**: Pode causar lentidão no sistema fora do jogo
 
-## 🎨 Interface Visual
-> O GameHub-PRO-X agora utiliza o [RGB-Banner](https://github.com/inrryoff/neon-cat) para exibições de banners animados em tempo real, garantindo uma interface fluida sem travamentos no terminal.
+---
+
+## 🆕 Novidade na V5!
+
+> [!TIP]
+> O **GameHub-PRO-X** agora utiliza o [RGB-Banner](https://github.com/inrryoff/neon-cat) para exibições de banners animados em tempo real.
+>
+> **Diferenciais técnicos:**
+> - **Performance em C:** Desenvolvido em C puro para ser infinitamente mais leve que scripts em Python ou Ruby.
+> - **Zero Lag:** Processamento via movimentação relativa de cursor, garantindo fluidez total sem "clonar" o texto ou travar o scroll do terminal.
+> - **Superioridade:** Supera o `lolcat` original ao lidar com grandes blocos de texto e caracteres Unicode complexos sem quebras.
+
+---
 
 ## 📱 Dispositivos compatíveis
 
@@ -32,6 +47,8 @@ Este módulo **NÃO** é genérico. Ele foi projetado sob medida:
 | Moto G24 Power | fogorow | XT2425 | Helio G85 | talvez |
 | Outros Helio G85/G80 | - | - | MT6768/MT6769 | ? |
 
+---
+
 ## 📊 Otimizações aplicadas
 
 | Recurso | O que faz | Comando |
@@ -40,6 +57,8 @@ Este módulo **NÃO** é genérico. Ele foi projetado sob medida:
 | I/O | Tempo real | `ionice -c 1 -n 0` |
 | Memória | Proteção OOM | `oom_score_adj -1000` |
 | GPU | Vulkan forçado | `debug.hwui.renderer skiavk` |
+
+---
 
 ## 🐛 Reportar problemas
 
@@ -68,6 +87,7 @@ Recomendo baixar o módulo [Kreapic Desativar Térmico Universal](https://github
 ---
 
 ## 🚀 Instalação
+
 1. Baixe o arquivo ".zip" do módulo.
 2. Abra o app do [Magisk](https://github.com/topjohnwu/magisk/releases).
 3. Vá na aba de módulos.
@@ -87,10 +107,12 @@ O módulo já configura o binário no sistema via `customize.sh`.
 ---
 
 ## 👤 Créditos e Licença
+
 * **Desenvolvedor**: [@inrryoff](https://github.com/inrryoff)
 * **Licença:** MIT (Pode usar e modificar, desde que mantenha os créditos ao autor original).
 * **Projeto**: GameHub-PRO-X
 
+---
 
 ## 🙏 Agradecimentos
 
